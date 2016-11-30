@@ -48,3 +48,24 @@ dataset. It follows these steps:
 
 For the reviewer's convenience I commented each step in *run_analysis.R* 
 according to this list.
+
+## How to Get the Data
+
+You can either load the data from the *mean_df.txt* file
+```{r}
+tidy_df <- read.table('mean_df.txt', header = TRUE, sep = " ")
+```
+or run the *run_analysis.R* script, which performs the following operations:
+
+- reads and merges train and test datasets
+- selects the columns, that contain measurements for mean() and std() 
+variables described above
+- reads activity labels from *activity_labels.txt*
+- merges two data frames to form new activity column from activity labels
+- removes unnecessary columns: row id and activity id
+- reads features list from *features.txt* and sets the descriptive names to the
+ columns of the dataset-
+- creates tidy data frame with mean of each value for each subject/activity 
+combination
+- writes tidy data frame into *mean_df.txt* file
+
