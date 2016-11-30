@@ -27,65 +27,65 @@ signal in the time domain (float)
 **tGravityAcc-std()-XYZ** &mdash; mean of the standard deviation of the
  gravity acceleration signal in the time domain (float)
 
-**tBodyAccJerk-mean()-XYZ** &mdash; mean of the mean body linear acceleration derivative in the time domain
+**tBodyAccJerk-mean()-XYZ** &mdash; mean of the mean body linear acceleration derivative in the time domain (float)
 
-**tBodyAccJerk-std()-XYZ** &mdash; mean of the standard deviation of the body linear acceleration derivative in the time domain
+**tBodyAccJerk-std()-XYZ** &mdash; mean of the standard deviation of the body linear acceleration derivative in the time domain (float)
 
-**tBodyGyro-mean()-XYZ** &mdash; mean of the mean body angular velocity in the time domain
+**tBodyGyro-mean()-XYZ** &mdash; mean of the mean body angular velocity in the time domain (float)
 
-**tBodyGyro-std()-XYZ** &mdash; mean of the standard deviation of the body angular velocity in the time domain
+**tBodyGyro-std()-XYZ** &mdash; mean of the standard deviation of the body angular velocity in the time domain (float)
 
-**tBodyGyroJerk-mean()-XYZ** &mdash; mean of the mean body angular velocity derivative in the time domain
+**tBodyGyroJerk-mean()-XYZ** &mdash; mean of the mean body angular velocity derivative in the time domain (float)
 
-**tBodyGyroJerk-std()-XYZ** &mdash; mean of the standard deviation of the body angular velocity derivative in the time domain
+**tBodyGyroJerk-std()-XYZ** &mdash; mean of the standard deviation of the body angular velocity derivative in the time domain (float)
 
-**tBodyAccMag-mean()** &mdash; mean of the mean magnitude (Euclidean norm) of the body acceleration signal in the time domain
+**tBodyAccMag-mean()** &mdash; mean of the mean magnitude (Euclidean norm) of the body acceleration signal in the time domain (float)
 
-**tBodyAccMag-std()** &mdash; mean of the standard deviation of the magnitude (Euclidean norm) of the body acceleration signal in the time domain
+**tBodyAccMag-std()** &mdash; mean of the standard deviation of the magnitude (Euclidean norm) of the body acceleration signal in the time domain (float)
 
-**tGravityAccMag-mean()** &mdash; mean of the mean magnitude (Euclidean norm) of the gravity acceleration signal in the time domain
+**tGravityAccMag-mean()** &mdash; mean of the mean magnitude (Euclidean norm) of the gravity acceleration signal in the time domain (float)
 
-**tGravityAccMag-std()** &mdash; mean of the standard deviation of the magnitude (Euclidean norm) of the gravity acceleration signal in the time domain
+**tGravityAccMag-std()** &mdash; mean of the standard deviation of the magnitude (Euclidean norm) of the gravity acceleration signal in the time domain (float)
 
-**tBodyAccJerkMag-mean()** &mdash; mean of the mean magnitude (Euclidean norm) of the body linear acceleration derivative in the time domain
+**tBodyAccJerkMag-mean()** &mdash; mean of the mean magnitude (Euclidean norm) of the body linear acceleration derivative in the time domain (float)
 
-**tBodyAccJerkMag-std()** &mdash; mean of the standard deviation of the magnitude (Euclidean norm) of the body linear acceleration derivative in the time domain
+**tBodyAccJerkMag-std()** &mdash; mean of the standard deviation of the magnitude (Euclidean norm) of the body linear acceleration derivative in the time domain (float)
 
-**tBodyGyroMag-mean()** &mdash; mean of the mean magnitude (Euclidean norm) of the body angular velocity in the time domain
+**tBodyGyroMag-mean()** &mdash; mean of the mean magnitude (Euclidean norm) of the body angular velocity in the time domain (float)
 
-**tBodyGyroMag-std()** &mdash; mean of the standard deviation of the magnitude (Euclidean norm) of the body angular velocity in the time domain
+**tBodyGyroMag-std()** &mdash; mean of the standard deviation of the magnitude (Euclidean norm) of the body angular velocity in the time domain (float)
 
-**tBodyGyroJerkMag-mean()** &mdash; mean of the mean magnitude (Euclidean norm) of the body angular velocity derivative in the time domain
+**tBodyGyroJerkMag-mean()** &mdash; mean of the mean magnitude (Euclidean norm) of the body angular velocity derivative in the time domain (float)
 
-**tBodyGyroJerkMag-std()** &mdash; mean of the standard deviation of the magnitude (Euclidean norm) of the body angular velocity derivative in the time domain
+**tBodyGyroJerkMag-std()** &mdash; mean of the standard deviation of the magnitude (Euclidean norm) of the body angular velocity derivative in the time domain (float)
 
-**fBodyAcc-mean()-XYZ** &mdash; mean of the mean Fast Fourier Transform of the 'tBodyAcc-' variables
+**fBodyAcc-mean()-XYZ** &mdash; mean of the mean Fast Fourier Transform of the 'tBodyAcc-' variables (float)
 
-**fBodyAcc-std()-XYZ** &mdash; mean of the standard deviation of the Fast Fourier Transform of the 'tBodyAcc-' variables
+**fBodyAcc-std()-XYZ** &mdash; mean of the standard deviation of the Fast Fourier Transform of the 'tBodyAcc-' variables (float)
 
-**fBodyAccJerk-mean()-XYZ** &mdash; mean of the mean Fast Fourier Transform of the 'tBodyAccJerk-' variables
+**fBodyAccJerk-mean()-XYZ** &mdash; mean of the mean Fast Fourier Transform of the 'tBodyAccJerk-' variables (float)
 
-**fBodyAccJerk-std()-XYZ** &mdash; mean of the standard deviation of the Fast Fourier Transform of the 'tBodyAccJerk-' variables
+**fBodyAccJerk-std()-XYZ** &mdash; mean of the standard deviation of the Fast Fourier Transform of the 'tBodyAccJerk-' variables (float)
 
-**fBodyGyro-mean()-XYZ** &mdash; mean of the mean Fast Fourier Transform of the 'tBodyGyro-' variables
+**fBodyGyro-mean()-XYZ** &mdash; mean of the mean Fast Fourier Transform of the 'tBodyGyro-' variables (float)
 
-**fBodyGyro-std()-XYZ** &mdash; mean of the standard deviation of the Fast Fourier Transform of the 'tBodyGyro-' variables
+**fBodyGyro-std()-XYZ** &mdash; mean of the standard deviation of the Fast Fourier Transform of the 'tBodyGyro-' variables (float)
 
-**fBodyAccMag-mean()** &mdash; mean of the mean Fast Fourier Transform of the 'tBodyAccMag-' variables
+**fBodyAccMag-mean()** &mdash; mean of the mean Fast Fourier Transform of the 'tBodyAccMag-' variables (float)
 
-**fBodyAccMag-std()** &mdash; mean of the standard deviation of the Fast Fourier Transform of the 'tBodyAccMag-' variables
+**fBodyAccMag-std()** &mdash; mean of the standard deviation of the Fast Fourier Transform of the 'tBodyAccMag-' variables (float)
 
-**fBodyBodyAccJerkMag-mean()** &mdash; mean of the mean Fast Fourier Transform of the unknown variables
+**fBodyBodyAccJerkMag-mean()** &mdash; mean of the mean Fast Fourier Transform of the unknown variables (float)
 
-**fBodyBodyAccJerkMag-std()** &mdash; mean of the standard deviation of the Fast Fourier Transform of the unknown variables
+**fBodyBodyAccJerkMag-std()** &mdash; mean of the standard deviation of the Fast Fourier Transform of the unknown variables (float)
 
-**fBodyBodyGyroMag-mean()** &mdash; mean of the mean Fast Fourier Transform of the unknown variables
+**fBodyBodyGyroMag-mean()** &mdash; mean of the mean Fast Fourier Transform of the unknown variables (float)
 
-**fBodyBodyGyroMag-std()** &mdash; mean of the standard deviation of the Fast Fourier Transform of the unknown variables
+**fBodyBodyGyroMag-std()** &mdash; mean of the standard deviation of the Fast Fourier Transform of the unknown variables (float)
 
-**fBodyBodyGyroJerkMag-mean()** &mdash; mean of the mean Fast Fourier Transform of the unknown variables
+**fBodyBodyGyroJerkMag-mean()** &mdash; mean of the mean Fast Fourier Transform of the unknown variables (float)
 
-**fBodyBodyGyroJerkMag-std()** &mdash; mean of the standard deviation of the Fast Fourier Transform of the unknown variables
+**fBodyBodyGyroJerkMag-std()** &mdash; mean of the standard deviation of the Fast Fourier Transform of the unknown variables (float)
 
 ## Notes for the Data Dictionary
 
