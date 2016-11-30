@@ -28,49 +28,69 @@ signal in the time domain (float)
  gravity acceleration signal in the time domain (float)
 
 **tBodyAccJerk-mean()-XYZ** &mdash; mean of the mean body linear acceleration derivative in the time domain
+
 **tBodyAccJerk-std()-XYZ** &mdash; mean of the standard deviation of the body linear acceleration derivative in the time domain
 
 **tBodyGyro-mean()-XYZ** &mdash; mean of the mean body angular velocity in the time domain
+
 **tBodyGyro-std()-XYZ** &mdash; mean of the standard deviation of the body angular velocity in the time domain
 
 **tBodyGyroJerk-mean()-XYZ** &mdash; mean of the mean body angular velocity derivative in the time domain
+
 **tBodyGyroJerk-std()-XYZ** &mdash; mean of the standard deviation of the body angular velocity derivative in the time domain
 
 **tBodyAccMag-mean()** &mdash; mean of the mean magnitude (Euclidean norm) of the body acceleration signal in the time domain
+
 **tBodyAccMag-std()** &mdash; mean of the standard deviation of the magnitude (Euclidean norm) of the body acceleration signal in the time domain
 
 **tGravityAccMag-mean()** &mdash; mean of the mean magnitude (Euclidean norm) of the gravity acceleration signal in the time domain
+
 **tGravityAccMag-std()** &mdash; mean of the standard deviation of the magnitude (Euclidean norm) of the gravity acceleration signal in the time domain
 
 **tBodyAccJerkMag-mean()** &mdash; mean of the mean magnitude (Euclidean norm) of the body linear acceleration derivative in the time domain
+
 **tBodyAccJerkMag-std()** &mdash; mean of the standard deviation of the magnitude (Euclidean norm) of the body linear acceleration derivative in the time domain
 
 **tBodyGyroMag-mean()** &mdash; mean of the mean magnitude (Euclidean norm) of the body angular velocity in the time domain
+
 **tBodyGyroMag-std()** &mdash; mean of the standard deviation of the magnitude (Euclidean norm) of the body angular velocity in the time domain
 
 **tBodyGyroJerkMag-mean()** &mdash; mean of the mean magnitude (Euclidean norm) of the body angular velocity derivative in the time domain
+
 **tBodyGyroJerkMag-std()** &mdash; mean of the standard deviation of the magnitude (Euclidean norm) of the body angular velocity derivative in the time domain
 
 **fBodyAcc-mean()-XYZ** &mdash; mean of the mean Fast Fourier Transform of the 'tBodyAcc-' variables
+
 **fBodyAcc-std()-XYZ** &mdash; mean of the standard deviation of the Fast Fourier Transform of the 'tBodyAcc-' variables
 
 **fBodyAccJerk-mean()-XYZ** &mdash; mean of the mean Fast Fourier Transform of the 'tBodyAccJerk-' variables
+
 **fBodyAccJerk-std()-XYZ** &mdash; mean of the standard deviation of the Fast Fourier Transform of the 'tBodyAccJerk-' variables
 
 **fBodyGyro-mean()-XYZ** &mdash; mean of the mean Fast Fourier Transform of the 'tBodyGyro-' variables
+
 **fBodyGyro-std()-XYZ** &mdash; mean of the standard deviation of the Fast Fourier Transform of the 'tBodyGyro-' variables
 
 **fBodyAccMag-mean()** &mdash; mean of the mean Fast Fourier Transform of the 'tBodyAccMag-' variables
+
 **fBodyAccMag-std()** &mdash; mean of the standard deviation of the Fast Fourier Transform of the 'tBodyAccMag-' variables
 
 **fBodyBodyAccJerkMag-mean()** &mdash; mean of the mean Fast Fourier Transform of the unknown variables
+
 **fBodyBodyAccJerkMag-std()** &mdash; mean of the standard deviation of the Fast Fourier Transform of the unknown variables
 
 **fBodyBodyGyroMag-mean()** &mdash; mean of the mean Fast Fourier Transform of the unknown variables
+
 **fBodyBodyGyroMag-std()** &mdash; mean of the standard deviation of the Fast Fourier Transform of the unknown variables
 
 **fBodyBodyGyroJerkMag-mean()** &mdash; mean of the mean Fast Fourier Transform of the unknown variables
+
 **fBodyBodyGyroJerkMag-std()** &mdash; mean of the standard deviation of the Fast Fourier Transform of the unknown variables
+
+## Notes for the Data Dictionary
+
+It is unclear from the documentation how did the authors of the original dataset
+ obtained last six variables, so I could not describe them properly.
 
 ## How to Get the Data
 
